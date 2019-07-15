@@ -6,6 +6,11 @@ import sys
 
 
 def scalc():
+    """
+    Asks for an IPv4 address in CIDR format (e.g. 192.168.1.1/24) and uses
+    Python3 ipaddress module to generate various properties which are then
+    printed on screen. 
+    """
     try:
         # IPv4 address and mask length validation
         while True:
