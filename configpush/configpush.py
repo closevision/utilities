@@ -76,7 +76,7 @@ def configpush():
     commands = load_commands(sys.argv[2])
 
     # Retrieve username and password
-    username, password = 'admin', 'admin'#get_creds()
+    username, password = get_creds()
 
     # For each device execute commands
     for device in devices:
