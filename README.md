@@ -1,6 +1,6 @@
 # Utilities
 Various handy scripts.
 
-# Scalc
+## Scalc
 Subnet calculator utilizing ipaddress module.
 
