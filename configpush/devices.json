@@ -1,0 +1,17 @@
+[
+    {
+        "ip": "192.168.56.101",
+        "device_type": "arista_eos",
+        "role": "leaf"
+    },
+    {
+        "ip": "192.168.56.102",
+        "device_type": "arista_eos",
+        "role": "leaf"
+    },
+    {  
+        "ip": "192.168.56.103",
+        "device_type": "arista_eos",
+        "role": "spine"
+    }
+]
