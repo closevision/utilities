@@ -25,11 +25,7 @@ def ping_address(hosts):
     :return: a list of reachable IPv4 Address objects
     """
     reachable_hosts = []
-    option = None
-    if 'win32' in sys.platform:
-        option = '-n'
-    else:
-        option = '-c'
+    option = '-n' if sys.platform == 'win32' else '-c'
     for host in hosts:
         try:
             response = subprocess.check_output(['ping', option, '1', str(host)])
