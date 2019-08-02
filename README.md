@@ -26,6 +26,7 @@ to complete. For example for Class-C network it may take up 7 minutes to finish.
 ```
 py .\eping-serial.py
 Enter network address in CIDR format: 10.0.1.0/24
+
 10.0.1.1
 10.0.1.15
 10.0.1.155
