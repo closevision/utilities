@@ -52,9 +52,8 @@ def print_results(reachable_hosts):
             print(host)
 
 def main():
-    """ Records the start of the script, ask user for network CIDR address, 
-    check reachability for each host serially, print the result and script
-    run time.
+    """ Ask user for network CIDR address, check reachability for each 
+    host serially, print the result and script run time.
     """
     startTime = datetime.now()
     
