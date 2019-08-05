@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+__author__ = "Maros Kukan"
+__author_email__ = "maros.kukan@me.com"
+__license__ = "GPL"
+
 from datetime import datetime
 from multiprocessing import Process, Queue
 
