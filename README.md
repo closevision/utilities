@@ -54,3 +54,27 @@ The following hosts are reachable.
 
 Script completed in 0:00:10.609903.
 ```
+
+## dformat
+
+### dformat.py
+
+Converts data between json, xml and yaml formats. Uses argparse to retrieve source file, source format and desired format. Optionally prints the result file content on screen.
+
+*Example*
+```
+py .\dformat.py --file sample.json --informat json --outformat yaml --verbose
+Sucess: Data saved to sample_out.yaml
+
+File content:
+
+ietf-interfaces:interface:
+  description: Local Area Network
+  enabled: true
+  ietf-ip:ipv4:
+    address:
+    - ip: 192.168.56.1
+      netmask: 255.255.255.0
+  name: GigabitEthernet1
+
+```
