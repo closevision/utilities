@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface xmlns="ieft-interfaces">
+  <name>GigabitEthernet1</name>
+  <description>Local Area Network</description>
+  <enabled>true</enabled>
+  <ipv4>
+    <address>
+      <ip>192.168.56.1</ip>
+      <netmask>255.255.255.0</netmask>
+    </address>
+   </ipv4>
+</interface>
